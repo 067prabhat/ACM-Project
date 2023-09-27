@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/signup.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+ <div class="wrapper">
+    <h1 style="color: rgb(255, 0, 30);">PBhaiya Hub</h1>
+    <h2>SignUp</h2>
+    <form action="/signup" method="post">
+<div class="input-box">
+    <input type="text" name="name" placeholder="Username">
+    <input type="email" name="Email" id="email" placeholder="Email">
+   
+    <i class='bx bxs-user'></i>
+</div>
+    
+<div class="input-box">
+    <input type="password" name="password" placeholder="Password">
+    <i class="bx bxs-lock-alt"></i>
+</div>
+<div>
+    <p ><b>Gender</b></p>
+    <input type="radio" name="Gender" id="Gender">
+    <label for="Male">Male</label>
+    <br>
+    <input type="radio" name="Gender" id="Gender">
+    <label for="Female">Female</label>
+</div>
+
+    <input type="submit" class="submit">
+
+    </form>
+<div class="Login">
+    <p>Already have an account?
+    <a href="/login">Login</a></p>
+</div>
+</div>
+
+</body>
+</html>
